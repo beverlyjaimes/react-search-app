@@ -1,5 +1,6 @@
 import React, {Component } from 'react';
 import { Container, Jumbotron } from 'react-bootstrap';
+import SearchForm from './components/SearchForm';
 
 
 
@@ -12,8 +13,7 @@ function App() {
   <p>
     This is a simple search app.
   </p>
-  
-    {/* <Button variant="primary">Learn more</Button> */}
+  <SearchForm />
     </Container>
 </Jumbotron>
     </div>
