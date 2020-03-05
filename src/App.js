@@ -1,7 +1,7 @@
 import React, {Component } from 'react';
 import { Container, Jumbotron } from 'react-bootstrap';
 import SearchForm from './components/SearchForm';
-import Results from './components/SearchForm';
+import Results from './components/Results';
 
 
 
